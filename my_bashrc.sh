@@ -47,6 +47,18 @@ alias vimrc_git_to_sys='~/Gitpro/my_vimrc/vimrc_git_to_sys.sh'
 alias vimrc_sys_to_git='~/Gitpro/my_vimrc/vimrc_sys_to_git.sh'
 alias bashrc_git_to_sys='~/Gitpro/my_bashrc/bashrc_git_to_sys.sh'
 alias bashrc_sys_to_git='~/Gitpro/my_bashrc/bashrc_sys_to_git.sh'
+function git_pull_all {
+    for dir in */; do
+        if [ -d "$dir/.git" ]; then
+            echo "Pulling changes in $dir"
+            cd "$dir"
+            git pull
+            cd ..
+        else
+            echo "$dir does not contain a .git directory, skipping."
+        fi
+    done
+}
 #=============================================================================
 #用户自定义结束
 #=============================================================================
