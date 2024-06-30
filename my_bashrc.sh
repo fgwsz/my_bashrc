@@ -23,7 +23,7 @@ alias ktm='~/Gitpro/ktm2/ktm.sh'
 #打开vscode
 alias code='code'
 #打开vim
-alias vim='gvim'
+alias gvim='gvim'
 #打开python
 alias python='python3'
 #打开pip
