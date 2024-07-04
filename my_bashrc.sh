@@ -13,7 +13,7 @@
 #运行应用程序
 #-----------------------------------------------------------------------------
 #打开edge浏览器
-alias edge='/opt/microsoft/msedge/msedge'
+alias edge='microsoft-edge'
 #打开QQ
 alias qq='/opt/QQ/qq'
 #打开微信
