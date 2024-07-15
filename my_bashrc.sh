@@ -17,7 +17,9 @@ alias edge='microsoft-edge'
 #打开QQ
 alias qq='/opt/QQ/qq'
 #打开微信
-alias wechat='wechat'
+alias wechat-uos='/usr/bin/wechat'
+alias wechat-wine='/opt/apps/com.qq.weixin.spark/files/run.sh'
+alias wechat='wechat-wine'
 #打开ktm
 alias ktm='~/Gitpro/ktm2/ktm.sh'
 #打开vscode
