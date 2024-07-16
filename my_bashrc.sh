@@ -20,12 +20,10 @@ alias qq='/opt/QQ/qq'
 alias wechat-uos='/usr/bin/wechat'
 alias wechat-wine='/opt/apps/com.qq.weixin.spark/files/run.sh -f %f --no-sandbox'
 alias wechat='wechat-wine'
+#打开腾讯会议
+alias wemeet='/opt/wemeet/wemeetapp.sh %u'
 #打开ktm
 alias ktm='~/Gitpro/ktm2/ktm.sh'
-#打开vscode
-alias code='code'
-#打开vim
-alias gvim='gvim'
 #打开python
 alias python='python3'
 #打开pip
@@ -39,6 +37,7 @@ alias lsf='ls -f'
 alias cls='clear'
 alias cde='xdg-open .'
 alias gitpro='cd ~/Gitpro'
+alias start_menu='cd /usr/share/applications'
 alias bashrc='gvim ~/my_bashrc.sh'
 alias bashrc_source='source ~/.bashrc'
 alias vimrc='gvim ~/.vimrc'
