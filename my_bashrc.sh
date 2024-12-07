@@ -52,6 +52,13 @@ alias vimrc='gvim ~/.vimrc'
 alias ktmrc='gvim ~/Gitpro/ktm2/ktm/config.json'
 alias rmrf='rm -rf'
 alias ni='touch'
+#压缩/解压相关
+alias targz='tar -czvf'
+alias targz_x='tar -xzvf' #-C
+alias zip='zip -r'
+alias zip_x='unzip' #-d
+alias 7zmax='7z a -mx=9'
+alias 7z_x='7z x' #-o
 alias pc_close='shutdown -h now'
 alias uefi_reboot='sudo systemctl reboot --firmware-setup'
 alias vimrc_git_to_sys='~/Gitpro/my_vimrc/vimrc_git_to_sys.sh'
