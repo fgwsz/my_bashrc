@@ -22,8 +22,10 @@ alias wechat-wine='/opt/apps/com.qq.weixin.spark/files/run.sh -f %f --no-sandbox
 alias wechat='wechat-wine'
 #打开腾讯会议
 alias wemeet='/opt/wemeet/wemeetapp.sh %u'
-#打开mGBA模拟器
-alias mgba='mgba-qt'
+#打开GBA模拟器(mGBA)
+alias gba='mgba-qt'
+#打开NDS模拟器(melonDS)
+alias nds='~/Downloads/melonDS/build/melonDS'
 #打开ktm
 alias ktm='~/Gitpro/ktm2/ktm.sh'
 #打开python
