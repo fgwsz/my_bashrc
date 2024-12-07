@@ -22,6 +22,8 @@ alias wechat-wine='/opt/apps/com.qq.weixin.spark/files/run.sh -f %f --no-sandbox
 alias wechat='wechat-wine'
 #打开腾讯会议
 alias wemeet='/opt/wemeet/wemeetapp.sh %u'
+#打开百度网盘
+alias baidunetdisk='/opt/baidunetdisk/baidunetdisk --no-sandbox %U'
 #打开GBA模拟器(mGBA)
 alias gba='mgba-qt'
 #打开NDS模拟器(melonDS)
