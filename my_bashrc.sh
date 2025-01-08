@@ -12,6 +12,10 @@
 #-----------------------------------------------------------------------------
 #运行应用程序
 #-----------------------------------------------------------------------------
+#打开gvim
+alias gvim='~/Downloads/gvim.appimage'
+#打开vim
+alias vim='~/Downloads/vim.appimage'
 #打开edge浏览器
 alias edge='microsoft-edge'
 #打开QQ
@@ -28,6 +32,7 @@ alias baidunetdisk='/opt/baidunetdisk/baidunetdisk --no-sandbox %U'
 alias gba='mgba-qt'
 #打开NDS模拟器(melonDS)
 alias nds='~/Downloads/melonDS/build/melonDS'
+
 #打开ktm
 alias ktm='~/Gitpro/ktm2/ktm.sh'
 #打开python
@@ -48,8 +53,6 @@ alias gitpro='cd ~/Gitpro'
 alias start_menu='cd /usr/share/applications'
 alias bashrc='gvim ~/my_bashrc.sh'
 alias bashrc_source='source ~/.bashrc'
-alias gvim='/tmp/gvim.appimage'
-alias vim='/tmp/vim.appimage'
 alias vimrc='gvim ~/.vimrc'
 alias ktmrc='gvim ~/Gitpro/ktm2/ktm/config.json'
 alias rmrf='rm -rf'
