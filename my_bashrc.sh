@@ -12,10 +12,6 @@
 #-----------------------------------------------------------------------------
 #运行应用程序
 #-----------------------------------------------------------------------------
-#打开gvim
-alias gvim='~/Downloads/gvim.appimage'
-#打开vim
-alias vim='~/Downloads/vim.appimage'
 #打开edge浏览器
 alias edge='microsoft-edge'
 #打开QQ
