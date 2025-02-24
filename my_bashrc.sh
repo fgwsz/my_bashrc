@@ -17,7 +17,7 @@ alias edge='microsoft-edge'
 #打开QQ
 alias qq='/opt/QQ/qq'
 #打开微信
-alias wechat-uos='/usr/bin/wechat'
+alias wechat-linux='/usr/bin/wechat'
 alias wechat-wine='/opt/apps/com.qq.weixin.spark/files/run.sh -f %f --no-sandbox'
 alias wechat='wechat-wine'
 #打开腾讯会议
