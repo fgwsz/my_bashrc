@@ -53,6 +53,7 @@ alias vimrc='gvim ~/.vimrc'
 alias ktmrc='gvim ~/Gitpro/ktm2/ktm/config.json'
 alias rmrf='rm -rf'
 alias ni='touch'
+alias ibus_reboot='ibus-daemon -r -d -x'
 #压缩/解压相关
 alias targz='tar -czvf'
 alias targz_x='tar -xzvf' #-C
