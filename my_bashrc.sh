@@ -28,7 +28,6 @@ alias baidunetdisk='/opt/baidunetdisk/baidunetdisk --no-sandbox %U'
 alias gba='mgba-qt'
 #打开NDS模拟器(melonDS)
 alias nds='~/Downloads/melonDS/build/melonDS'
-
 #打开ktm
 alias ktm='~/Gitpro/ktm2/ktm.sh'
 #打开python
@@ -39,6 +38,8 @@ alias pip='pip3'
 alias setting='gnome-control-center'
 #打开开机应用设置界面
 alias start_up='gnome-session-properties'
+#打开ygodc
+alias ygodc='~/Gitpro/ygodc/ygodc'
 #-----------------------------------------------------------------------------
 #命令重命名
 #-----------------------------------------------------------------------------
@@ -67,7 +68,7 @@ alias vimrc_git_to_sys='~/Gitpro/my_vimrc/vimrc_git_to_sys.sh'
 alias vimrc_sys_to_git='~/Gitpro/my_vimrc/vimrc_sys_to_git.sh'
 alias bashrc_git_to_sys='~/Gitpro/my_bashrc/bashrc_git_to_sys.sh'
 alias bashrc_sys_to_git='~/Gitpro/my_bashrc/bashrc_sys_to_git.sh'
-function git_pull_all {
+function git_pull_all{
     for dir in */; do
         if [ -d "$dir/.git" ]; then
             echo "Pulling changes in $dir"
@@ -79,7 +80,6 @@ function git_pull_all {
         fi
     done
 }
-alias rgrep='rg' #使用ripgrep代替grep
 #=============================================================================
 #用户自定义结束
 #=============================================================================
