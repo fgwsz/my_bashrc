@@ -43,7 +43,9 @@ alias ygodc='~/Gitpro/ygodc/ygodc'
 #打开shotcut
 alias shotcut_apt='/usr/bin/shotcut'
 alias shotcut_snap='/snap/bin/shotcut'
-alias shotcut='shotcut_snap'
+#为什么使用老版本的apt shotcut?
+#新版本shotcut预览视频素材容易直接闪退卡住整个操作系统
+alias shotcut='shotcut_apt'
 #-----------------------------------------------------------------------------
 #命令重命名
 #-----------------------------------------------------------------------------
