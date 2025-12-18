@@ -40,6 +40,8 @@ alias setting='gnome-control-center'
 alias start_up='gnome-session-properties'
 #打开ygodc
 alias ygodc='~/Gitpro/ygodc/ygodc'
+#打开tokenizer
+alias tokenizer='~/Gitpro/tokenizer/tokenizer'
 #打开shotcut
 alias shotcut_apt='/usr/bin/shotcut'
 alias shotcut_snap='/snap/bin/shotcut'
