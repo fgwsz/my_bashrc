@@ -48,6 +48,8 @@ alias shotcut_snap='/snap/bin/shotcut'
 #为什么使用老版本的apt shotcut?
 #新版本shotcut预览视频素材容易直接闪退卡住整个操作系统
 alias shotcut='shotcut_apt'
+#打开fgwsz-package
+alias fgwsz_package='~/Gitpro/fgwsz-package/fgwsz_package'
 #-----------------------------------------------------------------------------
 #命令重命名
 #-----------------------------------------------------------------------------
