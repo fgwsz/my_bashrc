@@ -90,6 +90,51 @@ function git_pull_all {
         fi
     done
 }
+function fgwsz7z() {
+    if [[ -z "$1" ]]; then
+        echo "Usage: fgwsz7z <output package path> <input path 1> ... <input path N>"
+        echo "Tips: package filename without '.fgwsz.7z'"
+        return 1
+    fi
+    
+    # 使用 "$@" 或 "${@:2}" 来正确处理带空格的参数
+    fgwsz-package -c "$1.fgwsz" "${@:2}" || return 1
+    
+    # 检查文件/目录是否存在
+    if [[ ! -e "$1.fgwsz" ]]; then
+        echo "Error: $1.fgwsz was not created"
+        return 1
+    fi
+    
+    7z a -mx=9 "$1.fgwsz.7z" "$1.fgwsz" || return 1
+    
+    # 询问确认或添加安全选项
+    rm -rf "$1.fgwsz"
+}
+function fgwsz7z_x() {
+    if [[ -z "$1" ]]; then
+        echo "Usage: fgwsz7z_x <input package path> <extract_dir_path>"
+        echo "Tips: package filename without '.fgwsz.7z'"
+        return 1
+    fi
+    
+    local archive="$1.fgwsz.7z"
+    
+    # 检查文件是否存在
+    if [[ ! -f "$archive" ]]; then
+        echo "Error: $archive not found"
+        return 1
+    fi
+    
+    # 解压
+    7z x "$archive" -o./ || return 1
+    
+    # 解包，如果提供了第二个参数则作为目标路径
+    fgwsz-package -x "./$1.fgwsz" "$2"
+    
+    # 删除包文件
+    rm -rf "./$1.fgwsz"
+}
 #=============================================================================
 #用户自定义结束
 #=============================================================================
